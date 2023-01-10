@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;500;600;700&display=swap');
+
+/*Variables*/
+:root {
+  --c-dark: #040404;
+  --c-white: #fff;
+  --c-red: #bb131b;
+  --c-grey: #333;
+  --f-main: "Bai Jamjuree", sans-serif;
+  --bg-gradient: linear-gradient(to left, #0b0a0a, #371516, #62181c, #8e171e, #bb131b);
+  --transform: rotateY(180deg);
+  --transition: transform 0.8s;
+}
+
+body {
+  color: var(--c-dark);
+  font-family: var(--f-main);
+  height: 100vh;
+  background: #000 url('./assets/images/mr_robot_wall.jpg') no-repeat center center/cover;
+}
+
+.container {
+  margin: auto;
+  max-width: 72rem;
+  padding: 0 1.25rem;
+}
+
+header {
+  height: 20rem;
+}
+
+header img {
+  padding-top: 1rem;
+  width: 16rem;
+}
+
+.centered {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
