@@ -111,6 +111,24 @@ a {
   list-style: none;
 }
 
+.search {
+  height: 6rem;
+}
+
+.search input[type='search'] {
+  display: block;
+  margin: auto;
+  outline: none;
+  width: 60%;
+  padding: 0.5rem;
+  border: 0;
+  border-radius: 0.75rem;
+  font-size: 1.25rem;
+  color: var(--c-white);
+  background-image: var(--bg-gradient);
+}
+
+
 
 /*Media queries*/
 @media (max-width: 900px) {
