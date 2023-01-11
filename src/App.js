@@ -35,7 +35,7 @@ function App() {
     <div className='container'>
       <Header />
       <Search onSearchCharacters = { handleSearchCharacters } />
-      <CharacterGrid characterList = { characters } />
+      <CharacterGrid characterList = { characters } search = { searchedCharacter } />
     </div>
   );
 }
