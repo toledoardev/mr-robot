@@ -17,7 +17,7 @@ const Footer = () => {
       <div className='column-container centered'>
         <div className='line'></div>
         <p><MdCopyright size={14}/><a href='https://linkedin.com/in/alejandro-toledo-dev' >AlejandroToledo</a> | All rights reserved</p>
-        <img src= { fsocietyLogo } alt ='logo'></img>
+        <a href="#home"><img src= { fsocietyLogo } alt ='logo'></img></a>
       </div>       
     </footer>
   )
