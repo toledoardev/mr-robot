@@ -7,6 +7,7 @@ const CharacterCard = ( {profile_path, name, roles, popularity} ) => {
   return (
     <div className='card'>
       <img src= { API_IMAGE + profile_path } alt='character'></img>
+      <h2 className='centered'>  { roles[0].character } </h2>
       <div className='card-content'>
         <h1 className='centered'>  { roles[0].character } </h1>
         <ul>  

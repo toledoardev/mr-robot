@@ -2,6 +2,7 @@ import React from 'react';
 import { useState, useEffect } from 'react';
 import './App.css';
 import CharacterGrid from './components/CharacterGrid';
+import Footer from './components/Footer';
 import Header from './components/Header';
 import Search from './components/Search';
 
@@ -32,11 +33,14 @@ function App() {
   }
 
   return (
-    <div className='container'>
-      <Header />
-      <Search onSearchCharacters = { handleSearchCharacters } />
-      <CharacterGrid characterList = { characters } search = { searchedCharacter } />
-    </div>
+    <>
+      <div className='container'>
+        <Header />
+        <Search onSearchCharacters = { handleSearchCharacters } />
+        <CharacterGrid characterList = { characters } search = { searchedCharacter } />
+      </div>
+      <Footer />
+    </>
   );
 }
 
