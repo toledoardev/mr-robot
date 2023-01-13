@@ -6,19 +6,21 @@ import Footer from './components/Footer';
 import Header from './components/Header';
 import Search from './components/Search';
 
-const API_URL = 'https://api.themoviedb.org/3/tv/62560/aggregate_credits?api_key=dc095d999665af5f34800e8defa60920&language=en-US'
+const API_URL = 'https://api.themoviedb.org/3/tv/62560/aggregate_credits?api_key=dc095d999665af5f34800e8defa60920&language=en-US';
 
 
 function App() {
   const [characters, setCharacters] = useState([]);
   const [searchedCharacter, setSearchedCharacter] = useState(null);
-  
+
   useEffect(()=>{
     const fetchCharacters = ()=> {
             fetch(API_URL)
             .then((response)=>response.json())
             .then(data => {
-              setCharacters(data.cast.filter(character => character.profile_path != null))
+              setCharacters(data.cast.filter(character => 
+                  (character.profile_path != null ) && ( ! character.roles[0].character.includes('uncredited') )
+              ))
             })
     }
 

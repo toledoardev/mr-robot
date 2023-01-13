@@ -1,9 +1,9 @@
 import React from 'react';
 
-const API_IMAGE = 'https://image.tmdb.org/t/p/w500/'
-
+const API_IMAGE = 'https://image.tmdb.org/t/p/w500/';
 
 const CharacterCard = ( {profile_path, name, roles, popularity} ) => {
+
   return (
     <div className='card'>
       <img src= { API_IMAGE + profile_path } alt='character'></img>
