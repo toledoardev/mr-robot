@@ -218,7 +218,7 @@ footer img:hover {
 
 @media (max-width: 600px) {
   header img {
-    padding-top: 4rem;
+    padding-top: 5rem;
   }
 
   .search input[type='search'] {
