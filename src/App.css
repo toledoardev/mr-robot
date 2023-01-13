@@ -13,6 +13,8 @@
   scroll-behavior: smooth;
 }
 
+
+/*Default and custom properties*/
 * {
   margin: 0;
   padding: 0;
@@ -37,6 +39,8 @@ body {
   justify-content: center;
 }
 
+
+/* Header */
 header {
   height: 16rem;
 }
@@ -46,6 +50,8 @@ header img {
   width: 16rem;
 }
 
+
+/* Search */
 .search {
   height: 6rem;
 }
@@ -63,12 +69,33 @@ header img {
   background-image: var(--bg-gradient);
 }
 
+
+/* CharacterGrid */
 .cards-grid {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 1.5rem;  
 }
 
+.button-see-more {
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+  width: 10rem;
+  height: 3.25rem;
+  border-radius: 0.75rem;
+  font-size: 1rem;
+  font-weight: bold;
+  color: var(--c-dark);
+  background-image: var(--bg-gradient);
+}
+
+.button-see-more:hover {
+  color: var(--c-white);
+  border-color: var(--c-white);
+}
+
+
+/* CharacterCard */
 .card {
   overflow: hidden;
   position: relative;
@@ -133,23 +160,8 @@ header img {
   list-style: none;
 }
 
-.button-see-more {
-  margin-top: 5rem;
-  margin-bottom: 5rem;
-  width: 10rem;
-  height: 3.25rem;
-  border-radius: 0.75rem;
-  font-size: 1rem;
-  font-weight: bold;
-  color: var(--c-dark);
-  background-image: var(--bg-gradient);
-}
 
-.button-see-more:hover {
-  color: var(--c-white);
-  border-color: var(--c-white);
-}
-
+/* Footer */
 footer {
   padding-top: 2rem;
   width: 100%;
@@ -209,6 +221,7 @@ footer img:hover {
   scale: 1.08;
 }
 
+
 /*Media queries*/
 @media (max-width: 900px) {
   .cards-grid {
@@ -218,7 +231,7 @@ footer img:hover {
 
 @media (max-width: 600px) {
   header img {
-    padding-top: 5rem;
+    padding-top: 4rem;
   }
 
   .search input[type='search'] {
