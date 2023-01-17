@@ -9,6 +9,9 @@ The information and images where consumed from the TheMovieDB Api (https://www.t
 # :hammer:Funcionalidades del proyecto
 
 - `Characters info`: by focusing on a card, you will get information about the character.
+
+
+
 - `Search engine`: you can search for an especific character.
 
 
@@ -75,5 +78,5 @@ You don't have to ever use `eject`. The curated feature set is suitable for smal
 
 # Author
 
-Alejandro Raúl Toledo [Linkedin](https://www.linkedin.com/in/alejandro-toledo-dev)
+[Alejandro Raúl Toledo](https://www.linkedin.com/in/alejandro-toledo-dev)
 
