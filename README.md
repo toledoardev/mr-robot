@@ -1,3 +1,6 @@
+![Logo](https://github.com/toledoardev/mr-robot/blob/main/src/assets/images/mr_robot.png)
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
