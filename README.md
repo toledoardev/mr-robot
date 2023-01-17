@@ -1,7 +1,7 @@
 # Mr. Robot App
 
 Hello friend! 
-Wellcome to this repository, here you can find all the characters of the Mr. Robot serie.
+This app provides you information about all the characters of the Mr. Robot serie.
 
 ## :hammer:Funcionalidades del proyecto
 
