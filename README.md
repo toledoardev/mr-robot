@@ -1,6 +1,32 @@
-# Getting Started with Create React App
+![Mr. Robot logo](https://github.com/toledoardev/mr-robot/blob/main/src/assets/images/mr_robot.png)
+
+# Mr. Robot App
+
+Hello friend! 
+This app provides you information about all the characters of the Mr. Robot serie.
+The information and images where consumed from the TheMovieDB Api (https://www.themoviedb.org/documentation/api).
+
+# :hammer:Funcionalidades del proyecto
+
+- `Characters info`: by focusing on a card, you will get information about the character.
+
+
+
+- `Search engine`: you can search for an especific character.
+
+
+# 💻:Technologies
+
++ React js
++ Html
++ Css
++ Javascript
+
+
+## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
 
 ## Available Scripts
 
@@ -39,32 +65,18 @@ Instead, it will copy all the configuration files and the transitive dependencie
 
 You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+# ▶️ How to use it?
 
-To learn React, check out the [React documentation](https://reactjs.org/).
++ Create an account in [TheMovieDB](https://www.themoviedb.org)
++ Enter your account and copy your api key
++ Create your development enviroment with React.js: `npx create-react-app folderName`
++ Clone this repository trought: `https://github.com/toledoardev/mr-robot.git`
++ Change the api key on the App.js file
++ Run `npm start`
++ Enjoy it!
 
-### Code Splitting
+# Author
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+[Alejandro Raúl Toledo](https://www.linkedin.com/in/alejandro-toledo-dev)
 
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
