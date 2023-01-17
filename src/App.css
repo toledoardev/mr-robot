@@ -50,7 +50,6 @@ header img {
   width: 16rem;
 }
 
-
 /* Search */
 .search {
   height: 6rem;
@@ -67,6 +66,15 @@ header img {
   font-size: 1.25rem;
   color: var(--c-white);
   background-image: var(--bg-gradient);
+}
+
+
+/* Spinner */
+.spinner-container img { 
+  display: block; 
+  margin: auto;
+  height: 12rem; 
+  width: 12rem;
 }
 
 
