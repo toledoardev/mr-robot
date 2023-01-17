@@ -9,10 +9,11 @@ The information and images where consumed from the TheMovieDB Api (https://www.t
 # :hammer:Funcionalidades del proyecto
 
 - `Characters info`: by focusing on a card, you will get information about the character.
-
-
+![Mr. Robot capture 1](https://github.com/toledoardev/mr-robot/blob/main/src/assets/images/cap_1.png)
+![Mr. Robot capture 2](https://github.com/toledoardev/mr-robot/blob/main/src/assets/images/cap_2.png)
 
 - `Search engine`: you can search for an especific character.
+![Mr. Robot capture 3](https://github.com/toledoardev/mr-robot/blob/main/src/assets/images/cap_3.png)
 
 
 # 💻:Technologies
