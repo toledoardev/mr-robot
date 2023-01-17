@@ -1,5 +1,11 @@
-![Logo](https://github.com/toledoardev/mr-robot/blob/main/src/assets/images/mr_robot.png)
+# Mr. Robot App
 
+Hello friend! 
+Wellcome to this repository, here you can find all the characters of the Mr. Robot serie.
+
+## :hammer:Funcionalidades del proyecto
+
+- `Characters info`: by focusing on a card, you will get information about the character- `Search engine`: you can search for an especific character of the serie  
 
 # Getting Started with Create React App
 
