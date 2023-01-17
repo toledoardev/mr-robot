@@ -6,13 +6,13 @@ Hello friend!
 This app provides you information about all the characters of the Mr. Robot serie.
 The information and images where consumed from the TheMovieDB Api (https://www.themoviedb.org/documentation/api).
 
-## :hammer:Funcionalidades del proyecto
+# :hammer:Funcionalidades del proyecto
 
 - `Characters info`: by focusing on a card, you will get information about the character.
 - `Search engine`: you can search for an especific character.
 
 
-## 💻:Technologies
+# 💻:Technologies
 
 + React js
 + Html
@@ -20,7 +20,7 @@ The information and images where consumed from the TheMovieDB Api (https://www.t
 + Javascript
 
 
-# Getting Started with Create React App
+## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
@@ -63,8 +63,17 @@ Instead, it will copy all the configuration files and the transitive dependencie
 You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
 
-## Author
+# ▶️ How to use it?
 
-Alejandro Raúl Toledo
-![linkedin] (https://www.linkedin.com/in/alejandro-toledo-dev)
++ Create an account in [TheMovieDB](https://www.themoviedb.org)
++ Enter your account and copy your api key
++ Create your development enviroment with React.js: `npx create-react-app folderName`
++ Clone this repository trought: `https://github.com/toledoardev/mr-robot.git`
++ Change the api key on the App.js file
++ Run `npm start`
++ Enjoy it!
+
+# Author
+
+Alejandro Raúl Toledo [Linkedin](https://www.linkedin.com/in/alejandro-toledo-dev)
 
