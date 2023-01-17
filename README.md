@@ -6,7 +6,7 @@ Hello friend!
 This app provides you information about all the characters of the Mr. Robot serie.
 The information and images where consumed from the TheMovieDB Api (https://www.themoviedb.org/documentation/api).
 
-# :hammer:Funcionalidades del proyecto
+# :hammer:Project functionalities
 
 - `Characters info`: by focusing on a card, you will get information about the character.
 ![Mr. Robot capture 1](https://github.com/toledoardev/mr-robot/blob/main/src/assets/images/cap_1.png)
@@ -75,7 +75,7 @@ You don't have to ever use `eject`. The curated feature set is suitable for smal
 + Clone this repository trought: `https://github.com/toledoardev/mr-robot.git`
 + Change the api key on the App.js file
 + Run `npm start`
-+ Enjoy it!
++ Enjoy it! 
 
 # Author
 
