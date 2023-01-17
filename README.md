@@ -4,15 +4,15 @@
 
 Hello friend! 
 This app provides you information about all the characters of the Mr. Robot serie.
-
+The information and images where consumed from the TheMovieDB Api (https://www.themoviedb.org/documentation/api).
 
 ## :hammer:Funcionalidades del proyecto
 
-- `Characters info`: by focusing on a card, you will get information about the character- 
-- `Search engine`: you can search for an especific character of the serie  
+- `Characters info`: by focusing on a card, you will get information about the character.
+- `Search engine`: you can search for an especific character.
 
 
-## 💻:Tecnologías utilizadas
+## 💻:Technologies
 
 + React js
 + Html
@@ -63,8 +63,8 @@ Instead, it will copy all the configuration files and the transitive dependencie
 You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
 
-## Autor
+## Author
 
 Alejandro Raúl Toledo
-[linkedin] (https://www.linkedin.com/in/alejandro-toledo-dev)
+![linkedin] (https://www.linkedin.com/in/alejandro-toledo-dev)
 
